@@ -1,9 +1,9 @@
-import WelcomePage from './Components/WelcomePage';
+import AppRouter from "./Components/AppRouter";
 
 const App = () => {
   return (
     <div className="App">
-      <WelcomePage/>
+      <AppRouter/>
         
     </div>
   );
