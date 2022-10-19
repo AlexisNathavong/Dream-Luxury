@@ -37,32 +37,28 @@ export const LogoNav = styled.div`
 
 
 //About Page
-export const AboutHeader = styled.h1`
-    font-family: 'Tangerine', cursive;
-    font-weight: regular;
-    font-size: 20px;
-    text-align: center;
-    @media (max-width: 500px) {
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-    }
-`;
+// export const AboutHeader = styled.h1`
+//     font-family: 'Tangerine', cursive;
+//     font-weight: regular;
+//     font-size: 20px;
+//     text-align: center;
+//     @media (max-width: 500px) {
+//         display: flex;
+//         justify-content: center;
+//         margin: 0 auto;
+//     }
+// `;
  
-export const IMG = styled.div`
+export const Image = styled.div`
     .img-container {
-        width: 40%;
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
+        width: 400px;        
     }
-
-    img {
-        margon: 0 auto;
-        display: flex;
-        justify-content: center;
-    }
+    display: flex;
+    height: 100%;
+    width: 10%;
+    
 `;
+
 
 //Welcome Page
 
@@ -100,66 +96,66 @@ export const Images = styled.div`
     } 
 `;
 
-export const Couples = styled.div`
-    display: flex;
-    flex-direction: row;
-    border: 2px solid;
-    margin-bottom: 100px;
-    @media (max-width: 500px) {
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-    }
-    @media (max-width: 800px) {
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
+// export const Couples = styled.div`
+//     display: flex;
+//     flex-direction: row;
+//     border: 2px solid;
+//     margin-bottom: 100px;
+//     @media (max-width: 500px) {
+//         display: flex;
+//         justify-content: center;
+//         margin: 0 auto;
+//     }
+//     @media (max-width: 800px) {
+//         display: flex;
+//         justify-content: center;
+//         margin: 0 auto;
         
-    }
+//     }
 
-    .couples-images {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        object-fit: contain;
-        justify-content: space-between;
-        width: 64%;
-        margin: 0 auto;
-        @media (max-width: 500px) {
-            display: flex;
-            justify-content: center;
-            margin: 0 auto;
-        }
-        @media (max-width: 800px) {
-            display: flex;
-            justify-content: center;
-            margin: 0 auto;
+//     .couples-images {
+//         display: flex;
+//         flex-direction: row;
+//         flex-wrap: wrap;
+//         object-fit: contain;
+//         justify-content: space-between;
+//         width: 64%;
+//         margin: 0 auto;
+//         @media (max-width: 500px) {
+//             display: flex;
+//             justify-content: center;
+//             margin: 0 auto;
+//         }
+//         @media (max-width: 800px) {
+//             display: flex;
+//             justify-content: center;
+//             margin: 0 auto;
             
-        }
-    }
+//         }
+//     }
     
-    img {
-        width: 30%;
-        display: flex;
-        flex-direction: row;
-        margin: 0 auto;
-        object-fit: contain;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        @media (max-width: 500px) {
-            display: flex;
-            justify-content: center;
-            margin: 0 auto;
-        }
-        @media (max-width: 800px) {
-            display: flex;
-            justify-content: center;
-            margin: 0 auto;
+//     img {
+//         width: 30%;
+//         display: flex;
+//         flex-direction: row;
+//         margin: 0 auto;
+//         object-fit: contain;
+//         margin-top: 20px;
+//         margin-bottom: 20px;
+//         @media (max-width: 500px) {
+//             display: flex;
+//             justify-content: center;
+//             margin: 0 auto;
+//         }
+//         @media (max-width: 800px) {
+//             display: flex;
+//             justify-content: center;
+//             margin: 0 auto;
             
-        }
+//         }
         
-    }
-`;
+//     }
+// `;
 
 //Footer
 export const Icons = styled.div`
