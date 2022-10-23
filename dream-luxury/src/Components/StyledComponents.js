@@ -37,17 +37,16 @@ export const LogoNav = styled.div`
 
 
 //About Page
-// export const AboutHeader = styled.h1`
-//     font-family: 'Tangerine', cursive;
-//     font-weight: regular;
-//     font-size: 20px;
-//     text-align: center;
-//     @media (max-width: 500px) {
-//         display: flex;
-//         justify-content: center;
-//         margin: 0 auto;
-//     }
-// `;
+export const AboutHeader = styled.h1`
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+    @media (max-width: 500px) {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+`;
  
 export const Image = styled.div`
     .img-container {
